@@ -1,0 +1,4 @@
+--- # List of official/approved cloudlets for Nepho
+- name: huit-mediawiki
+  summary: MediaWiki CMS
+  source: git@github.com:cloudlets/huit-mediawiki
