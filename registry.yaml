@@ -9,6 +9,7 @@ stdlib:
   summary: Cloudlet Standard Library
   description: Standard library of common cloudlet patterns, scripts, and resources.
   projectpage: http://github.com/huit/nepho
+  
 huit-mediawiki:
   version: 0.0.1
   format: 1
