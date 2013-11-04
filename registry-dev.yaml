@@ -1,0 +1,44 @@
+--- # List of official Nepho cloudlets (updated: 2013-10-15)
+
+stdlib:
+  version: 0.0.1
+  format: 1
+  source: git@github.com:robparrott/stdlib.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: Cloudlet Standard Library
+  description: Standard library of common cloudlet patterns, scripts, and resources.
+  projectpage: http://github.com/huit/nepho
+  
+huit-mediawiki:
+  version: 0.0.1
+  format: 1
+  source: git@github.com:cloudlets/huit-mediawiki.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: MediaWiki CMS
+  description: MediaWiki is the collaborative editing software that runs Wikipedia.
+  projectpage: http://www.mediawiki.org
+
+nepho-example:
+  version: 0.0.1
+  format: 1
+  source: git@github.com:cloudlets/nepho-example.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: An example cloudlet that provides a base Vagrant box.
+  description: >
+    This example cloudlet shows how to create and structure your own cloudlets. It
+    currently includes runnable Vagrant configuration, and may be expanded in the
+    future with other provider implementations.
+  projectpage: http://github.com/huit/nepho
+
+iam-poc:
+  version: 0.0.1
+  format: 1
+  source: git@github.com:cloudlets/iam-poc.git
+  author: Harvard University Information Technology 
+  license: MIT 
+  summary: A PoC IAM cloudlet 
+  description: A PoC IAM cloudlet for deploying a single box for IAM development work
+  projectspage: http://github.com/cloudlets/iam-poc
