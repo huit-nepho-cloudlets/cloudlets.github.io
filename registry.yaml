@@ -32,3 +32,17 @@ nepho-example:
     currently includes runnable Vagrant configuration, and may be expanded in the
     future with other provider implementations.
   projectpage: http://github.com/huit/nepho
+
+nepho-railsapp:
+  version: 0.0.1
+  format: 1
+  source: git@github.com:cloudlets/nepho-railsapp.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: Deploy a Ruby on Rails stack.
+  description: >
+    This cloudlet deploys a Capistrano-compatible Ruby on Rails stack running
+    on Passenger. It currently includes runnable Vagrant configuration, and may
+    be expanded in the future with other provider implementations.
+  projectpage: http://github.com/cloudlets/nepho-railsapp
+
