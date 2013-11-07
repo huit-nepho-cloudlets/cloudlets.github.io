@@ -3,7 +3,7 @@
 stdlib:
   version: 0.0.1
   format: 1
-  source: git@github.com:robparrott/stdlib.git
+  source: https://github.com/robparrott/stdlib.git
   author: Harvard University Information Technology
   license: MIT
   summary: Cloudlet Standard Library
@@ -13,7 +13,7 @@ stdlib:
 huit-mediawiki:
   version: 0.0.1
   format: 1
-  source: git@github.com:cloudlets/huit-mediawiki.git
+  source: https://github.com/cloudlets/huit-mediawiki.git
   author: Harvard University Information Technology
   license: MIT
   summary: MediaWiki CMS
@@ -23,7 +23,7 @@ huit-mediawiki:
 nepho-example:
   version: 0.0.1
   format: 1
-  source: git@github.com:cloudlets/nepho-example.git
+  source: https://github.com/cloudlets/nepho-example.git
   author: Harvard University Information Technology
   license: MIT
   summary: An example cloudlet that provides a base Vagrant box.
@@ -36,7 +36,7 @@ nepho-example:
 nepho-railsapp:
   version: 0.0.1
   format: 1
-  source: git@github.com:cloudlets/nepho-railsapp.git
+  source: https://github.com/cloudlets/nepho-railsapp.git
   author: Harvard University Information Technology
   license: MIT
   summary: Deploy a Ruby on Rails stack.
@@ -45,4 +45,3 @@ nepho-railsapp:
     on Passenger. It currently includes runnable Vagrant configuration, and may
     be expanded in the future with other provider implementations.
   projectpage: http://github.com/cloudlets/nepho-railsapp
-
