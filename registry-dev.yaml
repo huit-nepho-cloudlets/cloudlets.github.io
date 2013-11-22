@@ -9,7 +9,7 @@ stdlib:
   summary: Cloudlet Standard Library
   description: Standard library of common cloudlet patterns, scripts, and resources.
   projectpage: http://github.com/huit/nepho
-  
+
 huit-mediawiki:
   version: 0.0.1
   format: 1
@@ -21,16 +21,16 @@ huit-mediawiki:
   projectpage: http://www.mediawiki.org
 
 nepho-example:
-  version: 0.0.1
+  version: 1.0.0
   format: 1
   source: https://github.com/cloudlets/nepho-example.git
   author: Harvard University Information Technology
   license: MIT
-  summary: An example cloudlet that provides a base Vagrant box.
+  summary: An example cloudlet that demonstrates key concepts.
   description: >
-    This example cloudlet shows how to create and structure your own cloudlets. It
-    currently includes runnable Vagrant configuration, and may be expanded in the
-    future with other provider implementations.
+    This cloudlet deploys a Capistrano-compatible Ruby on Rails stack running
+    on Passenger. It currently includes runnable Vagrant configuration, and may
+    be expanded in the future with other provider implementations.
   projectpage: http://github.com/huit/nepho
 
 nepho-railsapp:
