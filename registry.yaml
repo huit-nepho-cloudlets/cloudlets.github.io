@@ -1,4 +1,4 @@
---- # List of official Nepho cloudlets (updated: 2013-11-26)
+--- # List of official Nepho cloudlets (updated: 2014-01-14)
 
 nepho-example:
   version: 1.0.0
@@ -26,3 +26,17 @@ nepho-railsapp:
     on Passenger. It currently includes runnable Vagrant configuration, and may
     be expanded in the future with other provider implementations.
   projectpage: http://github.com/cloudlets/nepho-railsapp
+
+nepho-tieredapp:
+  version: 0.0.3
+  format: 1
+  source: https://github.com/huit/nepho-tieredapp.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: A tiered web application environment
+  description: >
+    This cloudlet provides an empty web application platform, with three logical
+    tiers.  The frontmost tier is for "stateless" components of the application
+    stack, the middle tier is for "stateful" components, and the back tier
+    provides a persistence layer via RDS and S3.
+  projectspage: http://github.com/huit/nepho-tieredapp
