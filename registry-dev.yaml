@@ -47,12 +47,12 @@ iam-poc:
   description: A PoC IAM cloudlet for deploying a single box for IAM development work
   projectspage: http://github.com/cloudlets/iam-poc
 
-nepho-tieredapp:
+nepho-cas:
   version: 0.0.1
   format: 1
-  source: https://github.com/huit/nepho-tieredapp.git
+  source: https://github.com/huit/nepho-cas.git
   author: Harvard University Information Technology
   license: MIT
-  summary: A tiered web application environment
-  description: A cloudlet for deploying a web application environment with three tiers
-  projectspage: http://github.com/huit/nepho-tieredapp
+  summary: Deploy a CAS server
+  description: A cloudlet for deploying a CAS server
+  projectspage: http://github.com/huit/nepho-cas
