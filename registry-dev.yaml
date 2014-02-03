@@ -56,3 +56,17 @@ nepho-cas:
   summary: Deploy a CAS server
   description: A cloudlet for deploying a CAS server
   projectspage: http://github.com/huit/nepho-cas
+
+nepho-tieredapp:
+  version: 0.0.3
+  format: 1
+  source: https://github.com/huit/nepho-tieredapp.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: A tiered web application environment
+  description: >
+    This cloudlet provides an empty web application platform, with three logical
+    tiers.  The frontmost tier is for "stateless" components of the application
+    stack, the middle tier is for "stateful" components, and the back tier
+    provides a persistence layer via RDS and S3.
+  projectspage: http://github.com/huit/nepho-tieredapp
