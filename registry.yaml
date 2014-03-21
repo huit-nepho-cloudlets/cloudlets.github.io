@@ -14,6 +14,19 @@ nepho-example:
     point for building your own cloudlets.
   projectpage: http://github.com/huit/nepho
 
+nepho-single-host:
+  version: 1.0.0
+  format: 1
+  source: https://github.com/cloudlets/nepho-single-host.git
+  author: Harvard University Information Technology
+  license: MIT
+  summary: An example cloudlet that deploys a single host image to multiple providers
+  description: >
+    This example cloudlet deploys a single host image to multiple providers, currently
+    including vagrant and AWS.
+  projectpage: http://github.com/cloudlets/nepho-single-host
+  
+
 nepho-railsapp:
   version: 0.0.1
   format: 1
