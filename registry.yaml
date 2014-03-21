@@ -43,7 +43,7 @@ nepho-railsapp:
 nepho-tieredapp:
   version: 0.0.4
   format: 1
-  source: https://github.com/huit/nepho-tieredapp.git
+  source: https://github.com/cloudlets/nepho-tieredapp.git
   author: Harvard University Information Technology
   license: MIT
   summary: A tiered web application environment
@@ -52,4 +52,4 @@ nepho-tieredapp:
     tiers.  The frontmost tier is for "stateless" components of the application
     stack, the middle tier is for "stateful" components, and the back tier
     provides a persistence layer via RDS and S3.
-  projectspage: http://github.com/huit/nepho-tieredapp
+  projectspage: http://github.com/cloudlets/nepho-tieredapp
