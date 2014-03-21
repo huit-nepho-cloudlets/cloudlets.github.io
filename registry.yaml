@@ -20,7 +20,7 @@ nepho-single-host:
   source: https://github.com/cloudlets/nepho-single-host.git
   author: Harvard University Information Technology
   license: MIT
-  summary: An example cloudlet that deploys a single host image to multiple providers
+  summary: A simple cloudlet that deploys a single host image to multiple providers
   description: >
     This example cloudlet deploys a single host image to multiple providers, currently
     including vagrant and AWS.
